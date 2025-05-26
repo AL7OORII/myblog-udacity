@@ -1,0 +1,21 @@
+.blog-card {
+  background: #202020;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.blog-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.blog-card button {
+  margin-top: 1rem;
+  background: #5C51FF;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}

@@ -1,0 +1,23 @@
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #ffffff;
+  background-color: #121212;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #5C51FF;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #FFB703;
+}
+
+p {
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+}
