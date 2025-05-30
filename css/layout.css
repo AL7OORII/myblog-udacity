@@ -37,6 +37,14 @@ nav a {
 }
 
 .site-footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  text-align: center;
+}
+
+
+.site-footer {
   background: #1e1e1e;
   text-align: center;
   padding: 1rem;
@@ -75,6 +83,16 @@ blockquote {
   gap: 1rem;
   margin: 2rem 0;
 }
+.author-info {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #2a2a2a;
+  border-radius: 8px;
+}
+
 
 .author-info .avatar {
   width: 80px;
@@ -165,16 +183,30 @@ blockquote {
 }
 
 @media (max-width: 768px) {
-  nav {
-    flex-direction: column;
+  .container {
+    display: grid;
+    grid-template-rows: 10vh auto 10vh;
+    height: 100vh;
+  }
+
+  header, footer {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
     gap: 1rem;
+    padding: 1rem;
   }
 
   .blog-grid {
     grid-template-columns: 1fr;
   }
 
-  .card {
-    max-width: 100%;
+  .site-footer {
+    grid-template-columns: 1fr;
   }
 }
+
