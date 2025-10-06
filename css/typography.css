@@ -7,17 +7,18 @@ body {
 
 h1 {
   font-size: 2.5rem;
-  color: #5C51FF;
+  color: #c6c2fa;
   letter-spacing: 1px;
 }
 
 h2 {
   font-size: 1.8rem;
-  color: #FFB703;
+  color: #f3e8cd;
 }
 
 p {
+  color: #c6c2fa;
   font-style: italic;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: none;
 }
